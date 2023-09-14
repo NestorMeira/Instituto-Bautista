@@ -1,0 +1,19 @@
+section ul li:before {
+    position: absolute;
+    left: -40px;
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #6592e6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    content: '✓';
+    list-style: none;
+}
+::before {
+    box-sizing: border-box;
+}
