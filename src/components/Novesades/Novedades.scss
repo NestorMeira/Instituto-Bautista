@@ -11,27 +11,26 @@
     .padre{
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
+        justify-content: center;
         margin: 5px 0px 0 30px;
         flex-wrap: wrap;
         gap: 30px;
+
         .reunion-de-padres{
-        display: flex;
+         display: flex;
          flex-direction: column;
          flex-wrap: wrap;
          width: 320px;
          height: 1000px;
          background: aliceblue;
-        
          h3{
             font-weight: bold;
+            padding: 20px 60px;
          }
-         h4{
-            font-family: 'Jost', sans-serif;
-            font-size: 1.2rem;
-            line-height: 1.5;
-            
-             }
+        p{
+         padding: 5px 20px;
+        }
+   
          img{
             height: 300px;
             width: 100%;
@@ -47,13 +46,16 @@
         background: aliceblue;
         h3{
            font-weight: bold;
+        } 
+        p{          
+            text-align: left;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;       
+            padding: 7px;
         }
-        h4{
-           font-family: 'Jost', sans-serif;
-           font-size: 1.2rem;
-           line-height: 1.5;
-           
-            }
+        }
+     
         img{
            height: 300px;
            width: 100%;
@@ -68,13 +70,20 @@
         height: 1000px;
         background: aliceblue;
         h3{
-           font-weight: bold;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            padding: 10px 80px;
         }
         h4{
-           font-family: 'Jost', sans-serif;
-           font-size: 1.2rem;
-           line-height: 1.5;
+           padding: 0 50px;
+           padding-bottom: 20px;
            
+            }
+            a{
+               color: #6592e6 !important;
+               text-decoration: none;
+               padding: 10px 95px;
             }
         img{
            height: 300px;
@@ -90,14 +99,18 @@
         height: 1000px;
         background: aliceblue;
         h3{
-           font-weight: bold;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            padding: 20px 64px;
         }
-        h4{
-           font-family: 'Jost', sans-serif;
-           font-size: 1.2rem;
-           line-height: 1.5;
-           
-            }
+       p{
+            text-align: left;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.5;       
+            padding: 7px;
+       }
         img{
            height: 300px;
            width: 100%;
@@ -109,4 +122,4 @@
           
          
         }
-    }
+    
