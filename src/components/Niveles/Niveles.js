@@ -4,34 +4,37 @@ import React from 'react'
 const Niveles = () => {
   return (
     <div className='Niveles'>
-     <strong>Perfil del alumno</strong>
+    
      <h4>
+     <h3>
+      <strong>Perfil del alumno</strong>
+     </h3>
         <div>Es protagonista del proceso de enseñanza - aprendizaje</div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Es un ser sociable, independiente, participativo, solidario, crítico, observador, respetuoso y creativo
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Es respetuoso de las diferencias, con capacidad creciente para aceptar lo diverso, desarrollando actitudes de tolerancia 
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Se reconoce y respeta como persona
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Manifiesta sentimientos de pertenencia, seguridad y confianza en sí mismo, para resolver situaciones problemáticas
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Tiene control de su cuerpo y seguridad en sus desplazamientos  
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Conoce y relaciona hechos, fenómenos y situaciones del ambiente natural y social y los explica
         </div>
-        <div>.</div>
+        <div className='punto'>●</div>
         <div>
         Valora la importancia del medio natural y de la calidad de la vida humana
         </div>
@@ -52,9 +55,9 @@ const Niveles = () => {
 </div>
 </div>
     </div>
-    <div>
+    <div className='objetivos'>
         <h3>Nuestros Objetivos Pedagógicos</h3>
-    </div>
+   
     <section>
         <ul>
             <li>
@@ -89,6 +92,7 @@ const Niveles = () => {
             </li>
         </ul>
     </section>
+    </div>
     </div>
   )
 }

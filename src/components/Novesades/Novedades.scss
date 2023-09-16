@@ -23,6 +23,7 @@
          width: 320px;
          height: 1000px;
          background: aliceblue;
+         border-radius: 7px;
          h3{
             font-weight: bold;
             padding: 20px 60px;
@@ -35,17 +36,21 @@
             height: 300px;
             width: 100%;
             vertical-align: middle;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px ;
          }
         }
      .calendario{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        border-radius: 7px;
         width: 320px;
         height: 1000px;
         background: aliceblue;
         h3{
            font-weight: bold;
+           padding: 10px 50px;
         } 
         p{          
             text-align: left;
@@ -60,12 +65,15 @@
            height: 300px;
            width: 100%;
            vertical-align: middle;
+           border-top-right-radius: 8px;
+           border-top-left-radius: 8px ;
         }
      }
     .viaje{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        border-radius: 7px;
         width: 320px;
         height: 1000px;
         background: aliceblue;
@@ -89,12 +97,15 @@
            height: 300px;
            width: 100%;
            vertical-align: middle;
+           border-top-right-radius: 8px;
+           border-top-left-radius: 8px ;
         }
     }
     .libro{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        border-radius: 7px;
         width: 320px;
         height: 1000px;
         background: aliceblue;
@@ -115,11 +126,9 @@
            height: 300px;
            width: 100%;
            vertical-align: middle;
+           border-top-right-radius: 8px;
+           border-top-left-radius: 8px ;
         }
     }
-
-        
-          
-         
         }
     
