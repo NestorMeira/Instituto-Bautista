@@ -1,35 +1,37 @@
-import React from 'react'
+import'./Contacto.scss';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import LibraryAddCheckOutlinedIcon from '@mui/icons-material/LibraryAddCheckOutlined';
+import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 
 const Contacto = () => {
   return (
-    <div className='Contacto'>
-        <section>
-            <div>
-                <h1>INSTITUTO BAUTISTA DEL CENTRO</h1>
+    <div className='contacto'>
+        <section className='section1'>
+            <div className='padre1'>
+                <h1>INSTITUTO BAUTISTA DEL <br/>CENTRO</h1>
                 <p>ELDORADO - MISIONES</p>
-                <div className='padre'>
-                <div>
+                <div className='padre2'>
+                <div className='hijo'>
+                    <PersonOutlineOutlinedIcon className='icono1'/>
                     <span>Encuesta2024</span>
                 </div>
-                <div>
+                <div className='hijo'>
+                    <LibraryAddCheckOutlinedIcon className='icono2'/>
                     <span>Novedades</span>
                 </div>
-                <div>
+                <div className='hijo'>
+                    <InsertDriveFileOutlinedIcon className='icono3'/>
                     <span>Formularios</span>
                 </div>
-                <div>
-                    <span>Acceso Plataforma Santillana</span>
                 </div>
-                </div>
-
             </div>
         </section>
-        <section>
-            <div className='padre1'>
+        
+        <section className='section2'>
         <h3>
             <strong>Contacto</strong>
         </h3>
-
+        <div className='padre3'>
         <div className='tel-email'>
         <div className='tel'>
           <h6>Teléfono</h6>
@@ -46,10 +48,8 @@ const Contacto = () => {
         </div>
         </div>
         <div className='mapa'>
-        <iframe src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones'allowfullscreen></iframe>
+        <iframe title="mapa"  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones'allowfullscreen></iframe>
         </div>
-
-
             </div>
         </section>
     </div>

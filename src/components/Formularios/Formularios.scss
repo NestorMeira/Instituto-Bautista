@@ -1,0 +1,74 @@
+.formularios{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #98dee8;
+
+    .section{
+        width: 100%;
+    }
+   
+    .sction1{
+        height: 900px;
+        h3{
+            margin-bottom: 2rem;
+            padding-top: 2rem;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.8rem;
+            line-height: 1.5;
+            padding-left: 1.5rem;
+        }
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        background-color: #fdd21b;
+        width:100%;
+    
+        h3{
+        font-family: 'Jost', sans-serif;
+        font-size: 3rem;
+        line-height: 1.1;
+        
+        }
+    }
+
+
+    .padre{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+    }
+    .hijo{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem 3.5rem;
+        a{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: rgba(20, 20, 20, 0.872);
+        .iconos{
+            font-size: 5rem;
+            color: rgba(255, 255, 255, 0.735);
+
+        }
+        h4{
+            font-family: 'Jost', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            
+            
+        }
+    }
+    }
+}

@@ -1,5 +1,6 @@
 import'./Niveles.scss'
 import React from 'react'
+import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 
 const Niveles = () => {
   return (
@@ -57,37 +58,36 @@ const Niveles = () => {
     </div>
     <div className='objetivos'>
         <h3>Nuestros Objetivos Pedagógicos</h3>
-   
     <section>
         <ul>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Enseñar un estilo de vida inspirado en el amor a Dios y al prójimo. 
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Funcionar en el marco de libertad, solidaridad y respeto mutuo para beneficio de toda la Comunidad Educativa.
             </li>
             <li>
             Desarrollar una propuesta educativa para producir una experiencia de aprendizaje significativa, que capacite al niño para enfrentar la creciente complejidad de la realidad.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Crear condiciones para que los niños participen activamente en las prácticas sociales del lenguaje, para que las constituyan en objeto de reflexión, para que asuman una posición crítica frente a ellas.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Que comprendan los fundamentos lógicos que atienden a la formación de procesos generales de pensamiento matemático, a la resolución de problemas y a los modos de comunicar sus procedimientos y resultados.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Que se acerquen al conocimiento de la diversidad biológica mediante el estudio de las estructuras y funciones vitales de los organismos.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Que accedan a explicaciones e informaciones de hechos sociales actuales y del pasado, reconociendo causas y consecuencias como la participación de actores sociales en los mismos.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Promover múltiples y variadas situaciones didácticas que favorezcan el uso de diferentes medios tecnológicos para la comunicación.
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Que utilicen las posibilidades expresivas de la voz, del cuerpo, del juego y de las imágenes con creatividad y autonomía. 
             </li>
-            <li>
+            <li><CheckCircleSharpIcon className='ok'/>
             Que desarrollen habilidades cognitivas y lingüísticas del inglés, lengua de comunicación internacional y conozcan aspectos propios de la vida y cultura anglosajona.  
             </li>
         </ul>

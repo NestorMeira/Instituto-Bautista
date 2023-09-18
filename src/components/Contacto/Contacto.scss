@@ -1,0 +1,157 @@
+.contacto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section1{
+background-image: url('../../../public/assets/background5.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+width: 100%;
+height: 500px;
+
+
+.padre1{
+    text-align:center ;
+    font-family: 'Jost', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    font-weight: 700;
+    background-color: rgba(44, 75, 212, 0.766);
+    h1{
+        color: #fdd83d;
+        font-family: 'Jost', sans-serif;
+        font-size: 3.8rem;
+        line-height: 1.1;
+        padding: 1rem;
+    }
+    p{
+        color: #fafafa;
+        font-family: 'Jost', sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        word-break: break-word;
+        word-wrap: break-word;
+        font-weight: 400;
+        padding: 0.8rem;
+}
+}
+    }
+    .padre2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(44, 75, 212, 0.03);  
+        .hijo{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 3.8rem;
+            color: aliceblue;
+            span{
+                font-size:2rem;
+            }
+            .icono1{
+                font-size: 7rem;
+                color: #fdd83d;
+                
+            }
+            .icono2{
+                font-size: 7rem;
+                color: #77ed56;
+                
+            }
+            .icono3{
+                font-size: 7rem;
+                color: #4ea4ab;
+                
+            }
+        }
+   }
+   .section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-size: 3rem;
+        line-height: 1.1;
+        margin: 40px 40% -50px auto;
+        position: relative;
+    }
+    .padre3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../../public/assets/background6.jpg');
+        width: 100vh;
+        height: 600px;
+        .tel-email{
+            padding: 0 1rem;
+            margin-right: 50px;
+            .tel{
+                box-shadow: 4px 4px 2px #d0cfcf, -2px -2px 2px #cecaca;
+                padding: 1rem;
+                padding-bottom: 2rem;
+                background: #ffffff;
+                border-radius: 2px;
+             
+                h6{
+                    font-weight: bold;
+                    font-family: 'Jost', sans-serif;
+                     font-size: 1.6rem;
+                     line-height: 1.5;
+                     font-weight: bold;
+                     text-align: center;
+                }
+                p{
+                    font-family: 'Jost', sans-serif;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                   
+                 }
+                }
+                .email{
+                    box-shadow: 4px 4px 2px #d0cfcf, -2px -2px 2px #cecaca;
+                    margin-top: 10px;
+                    border-radius: 2px;
+                    
+                    background: #ffffff;
+                    h6{
+                        font-weight: bold;
+                        font-family: 'Jost', sans-serif;
+                         font-size: 1.6rem;
+                         line-height: 1.5;
+                         font-weight: bold;
+                         text-align: center;
+                    }
+                    p{
+                        font-family: 'Jost', sans-serif;
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        padding: 1rem;
+                       
+                     }
+                }
+            }
+
+        }
+        .mapa{
+            height: 390px;
+            width:400px;
+            box-shadow: 4px 4px 2px #d0cfcf, -2px -2px 2px #cecaca;
+          
+
+            iframe{
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+
+    }
