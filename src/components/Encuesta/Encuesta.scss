@@ -1,0 +1,102 @@
+.Formulario{
+    background-image: url('../../../public/assets/logo.png');
+    height: 100vb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+   .padre{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+   background-color: rgba(251, 233, 182, 0.778);
+   height: 100vb;
+   width: 100%;
+   h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    padding: 2rem;
+    margin: -200px 100px 10px auto;
+    text-shadow: 5px 5px 8px rgb(192, 192, 192);
+   }
+   p{
+    margin: 0 90px 40px auto;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-shadow: 5px 5px 8px rgb(232, 230, 230);
+   }
+   h3{
+    font-size: 1.5rem;
+    text-align: start;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 8px rgb(255, 252, 252);
+  
+   }
+   .si-no{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 2rem;
+    font-size: 2rem;
+    margin: 0 1px 0 235px;
+    text-shadow: 5px 5px 8px rgba(252, 252, 252, 0.406);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    input{
+        width: 25px;
+        height: 25px;
+        margin: 1rem 1rem;
+    }
+   }
+   .nombre{
+    display: flex;
+    width: 100%;
+    height: 34px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'jost';
+    font-weight: bold;
+    box-shadow: 5px 5px 8px rgba(235, 185, 123, 0.227);
+    label{
+        padding: 0 0.5rem;
+        text-shadow: 5px 5px 8px rgba(255, 255, 255, 0.492);
+    }
+    input{
+        width: 300px;
+
+    }
+   }
+   .grado{
+    padding: 1rem;
+    box-shadow: 5px 5px 8px rgba(235, 185, 123, 0.227);
+    width: 100%;
+    button{
+        width: 100px;
+        height: 50px;
+        border: none;
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 30px 0;
+        color: rgb(255, 255, 255);
+        background-color: rgb(105, 141, 249);
+        border-radius: 3px;
+    }
+    h4{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    label{
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        padding: 0.4rem;
+        
+    }
+    input{
+        width: 22px;
+        height: 22px;
+    }
+}
+}
+}

@@ -1,4 +1,6 @@
-import Contacto from './components/Contacto/Contacto';
+//import Contacto from './components/Contacto/Contacto';
+// import Encuesta from './components/Encuesta/Encuesta';
+import ResponsiveAppBar from './components/Nav/Nav';
 // import Formularios from './components/Formularios/Formularios';
 //import Niveles from './components/Niveles/Niveles';
 // import Nosotros from './components/Nosotros/Nosotros';
@@ -9,8 +11,11 @@ function App() {
   return (
     <div className="App">
 
- <Contacto/>
-{/*<Nosotros/>
+<ResponsiveAppBar/>
+{/*
+<Encuesta/>
+<Contacto/>
+<Nosotros/>
   <Novesades/>
   <Formularios/> 
   <Niveles/>
