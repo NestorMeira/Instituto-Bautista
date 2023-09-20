@@ -2,6 +2,7 @@ import'./Contacto.scss';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import LibraryAddCheckOutlinedIcon from '@mui/icons-material/LibraryAddCheckOutlined';
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
+import { Link } from 'react-router-dom';
 
 const Contacto = () => {
   return (
@@ -11,22 +12,27 @@ const Contacto = () => {
                 <h1>INSTITUTO BAUTISTA DEL <br/>CENTRO</h1>
                 <p>ELDORADO - MISIONES</p>
                 <div className='padre2'>
+                <Link className='linea' to='/encuesta'>
                 <div className='hijo'>
                     <PersonOutlineOutlinedIcon className='icono1'/>
                     <span>Encuesta2024</span>
                 </div>
-                <div className='hijo'>
+                </Link>
+                <Link className='linea' to='/novedades'>
+                <div className='hijo'>            
                     <LibraryAddCheckOutlinedIcon className='icono2'/>
-                    <span>Novedades</span>
+                    <span>Novedades</span>        
                 </div>
-                <div className='hijo'>
+                </Link>
+                <Link className='linea' to='/formularios'>
+                <div className='hijo'>            
                     <InsertDriveFileOutlinedIcon className='icono3'/>
-                    <span>Formularios</span>
+                    <span>Formularios</span>                 
                 </div>
+                </Link>
                 </div>
             </div>
-        </section>
-        
+        </section>    
         <section className='section2'>
         <h3>
             <strong>Contacto</strong>
