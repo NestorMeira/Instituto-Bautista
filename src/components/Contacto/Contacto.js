@@ -32,7 +32,8 @@ const Contacto = () => {
                 </Link>
                 </div>
             </div>
-        </section>    
+        </section>
+        
         <section className='section2'>
         <h3>
             <strong>Contacto</strong>

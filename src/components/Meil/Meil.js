@@ -61,7 +61,7 @@ export default class Form extends Component {
                   <h4>Sala o grado a inscribir en 2024</h4>
                       <label>
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="sala de 4"
                       
@@ -72,7 +72,7 @@ export default class Form extends Component {
                       <label>
                         
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcionion"
                           value="sala de 5"
                    
@@ -82,7 +82,7 @@ export default class Form extends Component {
                       <label>
                        
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="1º grado"
                         />
@@ -91,7 +91,7 @@ export default class Form extends Component {
                       <label>
                        
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="2º grado"
                         
@@ -101,7 +101,7 @@ export default class Form extends Component {
                       <label>
                      
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="3º grado"
                         />
@@ -110,7 +110,7 @@ export default class Form extends Component {
                       <label>
                       
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="4º grado"
                         />
@@ -119,7 +119,7 @@ export default class Form extends Component {
                       <label>
                       
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="5ºgrado"
                         />
@@ -128,7 +128,7 @@ export default class Form extends Component {
                       <label>
                        
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="6º grado"
                         />
@@ -137,7 +137,7 @@ export default class Form extends Component {
                       <label>
                        
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="7º grado"
                         />
@@ -146,7 +146,7 @@ export default class Form extends Component {
                       <label>
                       
                         <input
-                          type="checkbox"
+                          type="radio"
                           name="user_opcion"
                           value="1ºer Año Secundaria"
                           

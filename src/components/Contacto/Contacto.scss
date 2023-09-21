@@ -1,10 +1,4 @@
-.contacto{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+
 .section1{
 background-image: url('../../../public/assets/background5.jpg');
 background-repeat: no-repeat;
@@ -145,8 +139,6 @@ height: 500px;
             height: 390px;
             width:400px;
             box-shadow: 4px 4px 2px #d0cfcf, -2px -2px 2px #cecaca;
-          
-
             iframe{
                 width: 100%;
                 height: 100%;
@@ -155,3 +147,398 @@ height: 500px;
         }
 
     }
+
+
+    @media (max-width: 932px){
+       .section1{
+        height: 100%;
+        .padre1{
+            line-height:1.5;
+            font-weight: 600;
+            background-color: rgba(44, 75, 212, 0.766);
+            h1{
+                color: #fdd83d;
+                font-family: 'Jost', sans-serif;
+                font-size: 3rem;
+                line-height: 1.1;
+                padding: 1rem;
+            }
+            p{
+                color: #fafafa;
+                font-family: 'Jost', sans-serif;
+                font-size: 1.5rem;
+                line-height: 1.7;
+                word-break: break-word;
+                word-wrap: break-word;
+                font-weight: 400;
+                padding: 0.6rem;
+        }
+        .padre2{
+            line-height: 2;
+            .hijo{
+                padding: 3.4rem;
+                color: aliceblue;
+                span{
+                    font-size:1.8rem;
+                }
+                .icono1{
+                    font-size: 6rem;
+                    color: #fdd83d;
+                    
+                }
+                .icono2{
+                    font-size: 6rem;
+                    color: #77ed56;
+                    
+                }
+                .icono3{
+                    font-size: 6rem;
+                    color: #4ea4ab;
+                    
+                }
+            }
+        }
+        }
+    }
+        .section2{
+       width:auto ;
+       h3{
+        font-size: 2.8rem;
+        margin: 40px 40% -60px auto;
+        position: relative;
+       }
+       .padre3{
+        width: 100%;
+        .tel-email{
+           padding: 0.1rem;
+           width: 40%;
+           margin-right: 20px;
+           .tel{
+            h6{
+                 font-size: 1.6rem;
+                 line-height: 1.5;
+                 text-align: center;
+            }
+            p{
+                font-size: 1.4rem; 
+             }
+           }
+           .email{
+            h6{
+                 font-size: 1.4rem;
+                 line-height: 1.4;
+                 font-weight: bold;
+                 text-align: center;
+            }
+            p{
+                font-size: 1.3rem;
+                font-weight: bold;
+                padding: 1rem;
+               
+             }
+        }
+       }
+        }
+        .mapa{
+            height: 350px;
+            width:310px;
+        
+        }
+    }
+
+    }
+    @media (max-width: 828px){
+        .section1{
+            height: 100%;
+            .padre1{
+                line-height:1.5;
+                font-weight: 600;
+                h1{
+                    font-size: 2.2rem;
+                    line-height: 1.1;
+                    padding: 0.8rem;
+                }
+                p{
+                    color: #fafafa;
+                    font-family: 'Jost', sans-serif;
+                    font-size: 1.5rem;
+                    line-height: 1;
+                    word-break: break-word;
+                    word-wrap: break-word;
+                    font-weight: 400;
+                    padding: 0.4rem;
+            }
+            .padre2{
+                flex-flow: column wrap;
+                line-height: 1.2;
+                .hijo{
+                    padding: 1rem;
+                    color: aliceblue;
+                    span{
+                        font-size:1.4rem;
+                    }
+                    .icono1{
+                        font-size: 5rem;
+                        color: #fdd83d;
+                        
+                    }
+                    .icono2{
+                        font-size: 5rem;
+                        color: #77ed56;
+                        
+                    }
+                    .icono3{
+                        font-size: 5rem;
+                        color: #4ea4ab;
+                        
+                    }
+                }
+            }
+            }
+        }
+
+
+        .section2{
+            h3{
+             font-size: 2.8rem;
+             margin: 40px 40% -60px auto;
+            
+            }
+            .padre3{
+                display: flex;
+                flex-flow: column wrap;
+                width:auto ;
+                height: 850px;
+                width: 100%;
+                
+             .tel-email{
+                display: flex;
+                flex-flow: column ;
+                justify-content: center;
+                align-items:initial;
+                padding: 0.1rem;
+                width: 74%;
+                margin-right: 20px;
+                margin-bottom: 180px;
+                .tel{
+                 h6{
+                      font-size: 1.7rem;
+                      line-height: 1.5;
+                      text-align: center;
+                 }
+                 p{
+                     font-size: 1.5rem; 
+                     text-align: center;
+                  }
+                }
+                .email{
+                 h6{
+                      font-size: 1.7rem;
+                      line-height: 1.6;
+                      font-weight: bold;
+                      text-align: center;
+                 }
+                 p{
+                     font-size: 1.6rem;
+                     font-weight: bold;
+                     padding: 1rem;
+                     text-align: center;
+                    
+                  }
+             }
+            }
+             }
+             .mapa{
+                 height:25%;
+                 width:74%;
+                 position: absolute;
+                 margin: 65% 2% -50px auto;
+                 
+             
+             }
+         }
+    }
+
+    @media (max-width: 664px){
+        .section1{
+            height: 100%;
+            .padre1{
+                h1{
+                    font-size: 1.8rem;
+                    line-height: 1.1;
+                    padding: 0.8rem;
+                }
+                p{
+                    color: #fafafa;
+                    font-family: 'Jost', sans-serif;
+                    font-size: 1.2rem;
+                    line-height: 1;
+                    word-break: break-word;
+                    word-wrap: break-word;
+                    font-weight: 400;
+                    padding: 0.2rem;
+            }
+            .padre2{
+                .hijo{
+                    padding: 0.8rem;
+                    color: aliceblue;
+                    span{
+                        font-size:1.2rem;
+                        font-weight: 400;
+                    }
+                    .icono1{
+                        font-size: 4rem;
+                        color: #fdd83d;
+                        
+                    }
+                    .icono2{
+                        font-size: 4rem;
+                        color: #77ed56;
+                        
+                    }
+                    .icono3{
+                        font-size: 4rem;
+                        color: #4ea4ab;
+                        
+                    }
+                }
+            }
+            }
+        }
+
+
+        .section2{
+            h3{
+             font-size: 2.4rem;
+             margin: auto 38% -80px auto;
+            
+            }
+            .padre3{
+                display: flex;
+                flex-flow: column wrap;
+                height: 850px;
+                width: 100%;     
+             .tel-email{
+                display: flex;
+                flex-flow: column ;
+                justify-content: center;
+                align-items:initial;
+                width: 74%;
+                margin-right: 20px;
+                margin-bottom: 180px;
+                .tel{
+                 h6{
+                      font-size: 1.5rem;
+                      line-height: 1.4;
+                      text-align: start;
+                 }
+                 p{
+                     font-size: 1.3rem; 
+                     text-align: start;
+                     font-weight: 400;
+
+                     
+                  }
+                }
+                .email{
+                    margin-top: 20px;
+                 h6{
+                      font-size: 1.5rem;
+                      line-height: 1.4;
+                      font-weight: bold;
+                      text-align: start;
+                      padding: 0.1rem 1rem;
+                 }
+                 p{
+                     font-size: 1.3rem;
+                     font-weight: bold;
+                     padding: 0.1rem 0.6rem;
+                     text-align: start;
+                     font-weight: 400;
+
+                    
+                  }
+             }
+            }
+             }
+             .mapa{
+                 height:38%;
+                 width:74%;
+                 position: relative;
+                 margin:-150px 15% -15% auto;
+                 
+             
+             }
+         }
+    }
+    
+    @media (max-width: 442px){
+        .section1{
+        .padre1{
+            h1{
+                font-size: 1.5rem;
+                line-height: 1.1;
+                padding: 0.9rem 0.4rem;
+            }
+            p{
+                color: #fafafa;
+                font-family: 'Jost', sans-serif;
+                font-size: 1.1rem;
+                line-height: 1;
+                word-break: break-word;
+                word-wrap: break-word;
+                font-weight: 400;
+                padding: 0.1rem;   
+    }
+    }
+}
+.section2{
+    h3{
+     font-size: 2.3rem;
+     margin: auto 38% -80px auto;
+    
+    }
+    .padre3{
+     .tel-email{
+        width: 90%;
+     }
+     .mapa{
+         height:38%;
+         width:90%;
+         
+         margin:-150px 7% -15% auto;
+         
+     
+     }
+ }
+}
+
+}
+@media (max-width: 360px){
+    .section2{
+        h3{
+         font-size: 2.3rem;
+         margin: auto 38% -80px auto;
+        
+        }
+        .padre3{
+         .tel-email{
+            width: 100%;
+            .email{
+                p{
+                    font-size: 1.2rem;
+
+                }
+            }
+         }
+         .mapa{
+             height:38%;
+             width:97%;
+             
+             margin:-150px 8% -15% auto;
+             
+         
+         }
+     }
+    }
+}

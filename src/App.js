@@ -13,7 +13,6 @@ function App() {
   return (
 <BrowserRouter>
     <ResponsiveAppBar/>
-    
     <Routes>
       <Route path='/' element= {<Contacto/>}/>
       <Route path='/encuesta' element= {<Form/>}/>
