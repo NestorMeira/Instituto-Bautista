@@ -55,6 +55,14 @@ const Niveles = () => {
  <p>Turno Mañana</p>
 </div>
 </div>
+<div className='img'>
+  <img src='/assets/secundario.jpg' alt='imagen'/>
+  <div className='divItem'>
+  <strong>1er Año Secundaria</strong>
+  <h6>Orientación Educacion Física </h6>
+ <p>Turno Mañana</p>
+</div>
+</div>
     </div>
     <div className='objetivos'>
         <h3>Nuestros Objetivos Pedagógicos</h3>

@@ -5,7 +5,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
@@ -63,8 +62,8 @@ function ResponsiveAppBar() {
         <Container className='cotenedor' maxWidth="xl">
           <Toolbar disableGutters>
           <img className='logo' src='/assets/logo.png' alt='imagen'/>
-          <h2>IBC ELDORADO</h2>
-            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <h4>IBC ELDORADO</h4>
+            <Box className='menu' sx={{ flexGrow: 1, marginLeft:'16%',display: { xs: 'flex', md: 'none' } }}>
               <IconButton 
                 size="large"
                 aria-label="account of current user"
@@ -85,18 +84,17 @@ function ResponsiveAppBar() {
                 }}
                 keepMounted
                 transformOrigin={{
-                  vertical: 'top',
+                  vertical: 'left',
                   horizontal: 'left',
                 }}
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{
-                  display: { xs: 'block', md: 'none' },
+                  marginLeft:'-0.8%',display: { xs: 'block', md: 'none' },
                 }}
               >
-               
-                  <MenuItem  key={pages} onClick={handleCloseNavMenu}>
-                    <div className='menuItem'>
+                  <div className='menuItem'>
+                  <MenuItem sx={{display: 'block'}} key={pages} onClick={handleCloseNavMenu}>
                   <Link className='linea' to='/nosotros'>
                     <Button className='boton'
                   key={pages}
@@ -124,37 +122,24 @@ function ResponsiveAppBar() {
                   {pages.contacto}
                 </Button>
                 </Link>
-                </div>
+                <div className='redes2'>
+              <a href="https://www.facebook.com/Instituto-Bautista-del-Centro-1285019808241413" className='linea'><FacebookOutlinedIcon className='face'/></a>
+              <a href="https://api.whatsapp.com/send?phone=5493751502744&text=Hola%21%20Buen%20dia%20" className='linea'><WhatsAppIcon className='wpp'/></a>          
+            </div>
                   </MenuItem>
-              
+                  </div>
               </Menu>
             </Box>
           
-            <Typography 
-              variant="h5"
-              noWrap
-             
             
-              sx={{
-                mr: 2,
-                display: { xs: 'flex', md: 'none' },
-                flexGrow: 1,
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
-                color: 'inherit',
-                textDecoration: 'none',
-              }}
-            >
-            </Typography>   
-           <Box sx={{color:'black', flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
-              
+               
+              <Box sx={{color:'black', flexGrow: 2,paddingLeft:'26%',display: { xs: 'none', md: 'flex' }}}> 
                 <>
                 <Link className='linea' to='/nosotros'>
                 <Button
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
+                  sx={{ my: 2, color: 'black',fontWeight:'bold',display: 'block' }}
                 >nosotros
                   {pages.nosotros}
                 </Button>
@@ -163,7 +148,7 @@ function ResponsiveAppBar() {
                        <Button 
                          key={pages}
                          onClick={handleCloseNavMenu}
-                         sx={{ my: 2, color: 'white', display: 'block' }}
+                         sx={{ my: 2, color: 'black', display: 'block' ,fontWeight:'bold'}}
                        >niveles
                          {pages.niveles}
                        </Button>
@@ -172,15 +157,18 @@ function ResponsiveAppBar() {
                               <Button 
                                 key={pages}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: 'black', display: 'block',fontWeight:'bold'}}
                               >contacto
                                 {pages.contcto}
                               </Button>
                               </Link>
                               </>
             </Box>
-           
-            <Box sx={{ flexGrow: 0 }}>
+            <div className='redes'>
+              <a href="https://www.facebook.com/Instituto-Bautista-del-Centro-1285019808241413" className='linea'><FacebookOutlinedIcon className='face'/></a>
+              <a href="https://api.whatsapp.com/send?phone=5493751502744&text=Hola%21%20Buen%20dia%20" className='linea'><WhatsAppIcon className='wpp'/></a>          
+            </div>
+<Box sx={{ flexGrow: 0 }}>
               <Menu
                 sx={{ mt: '45px' }}
                 id="menu-appbar"
@@ -200,8 +188,7 @@ function ResponsiveAppBar() {
                   </MenuItem>
                 ))}
               </Menu>
-             <a href="https://www.facebook.com/Instituto-Bautista-del-Centro-1285019808241413" className='linea'><FacebookOutlinedIcon className='face'/></a>
-              <a href="https://api.whatsapp.com/send?phone=5493751502744&text=Hola%21%20Buen%20dia%20" className='linea'><WhatsAppIcon className='wpp'/></a>
+            
             </Box>
           </Toolbar>
           

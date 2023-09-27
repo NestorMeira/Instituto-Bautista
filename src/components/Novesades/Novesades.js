@@ -14,7 +14,7 @@ const Novesades = () => {
            <p><strong>2º grado:</strong> Lunes 04/09 11:00hs</p> <br/>
            <p><strong>1º grado:</strong> Martes 05/09 11:00hs</p> <br/>
            <p><strong>6º grado:</strong> Martes 12/09 07:30hs</p> <br/>
-           <p><strong>7º grado:</strong> Martes 19/09 07:30hs</p> 
+           <p><strong>7º grado:</strong> Martes 19/09 07:30hs</p><br/>
            
         </div>
         <div className='calendario'>
@@ -25,14 +25,14 @@ const Novesades = () => {
         <p>- 15/09 20:00 HS. VELADA ARTISTICA: NIVEL INICIAL, 6º GRADO y 7º GRADO</p>
         <p>- 21/09: ASUETO “DIA DE ESTUDIANTE”</p>
         <p>- 29/09: FERIADO MUNICIPAL “ANIVERSARIO DE LA CIUDAD DE ELDORADO”</p>
-        <p>- 29/09: FIN DEL 3º BIMESTRE (NIVEL PRIMARIO)</p>
+        <p>- 29/09: FIN DEL 3º BIMESTRE (NIVEL PRIMARIO)</p><br/>
         </div>
         <div className='viaje'>
         <img src='/assets/capiovi_img.jpeg' alt='imagen'/>
         <h3>Viaje Capioví</h3>
         <h4>Archivos para descargar</h4>
         <a href="assets/Autorizacion_Viaje_Capiovi.pdf">Autorización</a>
-        <a href="assets/nota_padres_Capiovi.pdf">Nota de padres</a>
+        <a href="assets/nota_padres_Capiovi.pdf">Nota de padres</a><br/>
         </div>
         <div className='libro'>
         <img src='/assets/libroingles.png' alt='imagen'/>
@@ -41,7 +41,7 @@ const Novesades = () => {
         <p><strong>2º grado:</strong> Storyline Starter B (Se comienza a usar a partir de 3/4. Durante el mes de marzo se termina de usar el del año anterior)</p>
         <p><strong>3º grado:</strong> Storyline 1 (Se comienza a usar a partir de 3/4. Durante el mes de marzo se termina de usar el del año anterior)</p>
         <p><strong>4º a 7º grado:</strong> Retirar el cuadernillo en Imprenta Heidell. Se utiliza desde el 1 de marzo.
-          
+        <br/>
         </p>
   
         </div>

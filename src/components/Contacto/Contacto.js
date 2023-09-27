@@ -15,7 +15,7 @@ const Contacto = () => {
                 <Link className='linea' to='/encuesta'>
                 <div className='hijo'>
                     <PersonOutlineOutlinedIcon className='icono1'/>
-                    <span>Encuesta2024</span>
+                    <span>Encuesta 2024</span>
                 </div>
                 </Link>
                 <Link className='linea' to='/novedades'>

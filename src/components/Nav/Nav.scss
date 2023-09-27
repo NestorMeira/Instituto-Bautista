@@ -1,33 +1,184 @@
 
 .logo{
-    width: 90px;
-    height: 79px;
-&:hover{
-    width: 100px;
-    height: 90px;
-
-}
+    width: 70px;
+    height: 64px;
+    padding: 1rem 1.5rem;
 }
 .menuItem{
     display: flex;
     flex-flow: column wrap;
-  
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 270px;
+ 
     .boton{
         color: black;
-        font-family: 'Jost', sans-serif;
-        font-weight: bold;
     }
 }
 .cotenedor{
-   background-color: rgba(79, 79, 79, 0.322);
-   
+   color: black;
+   background-color:rgba(255, 255, 255, 0.931);
+   position: fixed;
+   margin-bottom: 10px;
+   &:hover{
+   .logo{
+    width: 80px;
+    height: 74px;
+    padding: 1rem 2rem;
+   transition: all 0.45s ease;
+   transition-duration: 0.45s;
+   transition-timing-function: ease;
+   transition-delay: 0.2s;
+   transition-property: all;
 }
+} 
+}
+.redes{
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    margin-left:81%;
+a{
+    padding-right: 1rem;
 .face{
-    color: rgb(0, 149, 255);
-    
+    color: rgb(0, 149, 255); 
 }
 .wpp{
     color: rgb(19, 174, 86);
 }
+}
+}
+.redes2{
+  
+    a{
+        
+        padding: 0.6rem;
+        .face{
+            font-size: 1.9rem;
+            color: rgb(0, 149, 255);
+        }
+        .wpp{
+            font-size: 1.9rem;
+            color: rgb(19, 174, 86);
+        }
+    }
+}
 
+@media (max-width:899px){
+    .cotenedor{
+   
+        .logo{
+            width: 60px;
+            height: 57px;
+            margin-left: 15%;
+        }
+        h4{
+
+            font-size: 1.5rem;
+            margin-left: 2%;
+            width: 35%;
+        }
+       position: fixed;
+       &:hover{
+       .logo{
+        width: 70px;
+        height: 64px;
+        padding: 1rem 1rem;
+       transition: all 0.45s ease;
+       transition-duration: 0.45s;
+       transition-timing-function: ease;
+       transition-delay: 0.2s;
+       transition-property: all;
+    
+    }
+    } 
+    }
+    .redes{
+      display: none;
+    a{
+        padding-right: 0.8rem;
+    .face{
+        color: rgb(0, 149, 255);
+     
+        
+    }
+    .wpp{
+        color: rgb(19, 174, 86);
+    }
+    }
+    }
+}
+
+@media (max-width:596px){
+
+    .cotenedor{
+        
+        .logo{
+            width: 50px;
+            height: 47px;
+            margin-left: 8%;
+        }
+        h4{
+            font-size: 1rem;
+            margin-left: 2%;
+            width: 35%;
+        }
+       &:hover{
+       .logo{
+        width: 60px;
+        height: 54px;
+        padding: 1rem 0.6rem;
+    
+    }
+    } 
+    }
+    
+}
+@media (max-width:400px){
+ 
+       .cotenedor{
+        .logo{
+            width: 40px;
+            height: 37px;
+            margin-left: 8%;
+        }
+        h4{
+            font-size: 0.8rem;
+        
+            width: 35%;
+        }
+       &:hover{
+       .logo{
+        width: 50px;
+        height: 44px;
+        padding: 1rem 0.5rem;
+    
+    }
+    } 
+    }
+}
+@media (max-width:355px) {
+   
+       .cotenedor{
+        .logo{
+            width: 40px;
+            height: 37px;
+            margin-left:0;
+        }
+        h4{
+            font-size: 0.8rem;
+        
+            width: 35%;
+        }
+        &:hover{
+            .logo{
+                margin-left: 4%;
+
+         
+         }
+         } 
+    }
+    
+}
 
