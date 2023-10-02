@@ -7,6 +7,7 @@ import Niveles from './components/Niveles/Niveles';
 import Nosotros from './components/Nosotros/Nosotros';
 import Novesades from './components/Novesades/Novesades';
 import Form from './components/Meil/Meil';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/formularios' element= { <Formularios/>}/>
       <Route path='/niveles' element= {<Niveles/>}/>
     </Routes>
+    <Footer/>
   </BrowserRouter>
   );
 }

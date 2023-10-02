@@ -1,23 +1,42 @@
 import'./Contacto.scss';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+// import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import LibraryAddCheckOutlinedIcon from '@mui/icons-material/LibraryAddCheckOutlined';
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Spinner from '../Spinner/Spinner';
 
 const Contacto = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
+
   return (
+
+    <>{loading ? (
+      <Spinner/>
+    ): 
     <div className='contacto'>
+     
         <section className='section1'>
             <div className='padre1'>
                 <h1>INSTITUTO BAUTISTA DEL <br/>CENTRO</h1>
                 <p>ELDORADO - MISIONES</p>
                 <div className='padre2'>
-                <Link className='linea' to='/encuesta'>
+                  
+{/* <Link className='linea' to='/encuesta'>
                 <div className='hijo'>
                     <PersonOutlineOutlinedIcon className='icono1'/>
                     <span>Encuesta 2024</span>
                 </div>
-                </Link>
+                </Link> */}
+                
                 <Link className='linea' to='/novedades'>
                 <div className='hijo'>            
                     <LibraryAddCheckOutlinedIcon className='icono2'/>
@@ -60,6 +79,8 @@ const Contacto = () => {
             </div>
         </section>
     </div>
+    }
+    </>
   )
 }
 

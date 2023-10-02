@@ -15,7 +15,7 @@ export default class Form extends Component {
         return (
             <div className='Formulario'>
             <div className='padre'>
-              <h2>Encuesta Inscripcion 2024</h2>
+              <h2>Encuesta Inscripción 2024</h2>
               <p>
               La siguiente es una encuesta, en vista de considerar posibles vacantes para <br/> el ciclo lectivo 2024. Debe Completar el formulario por cada hijo que inscribirá.
               </p>

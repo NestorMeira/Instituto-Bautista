@@ -139,6 +139,10 @@
 @media (max-width:769px){
    .novedades{
       height: 100%;
+      margin-top: 17%;
+      h2{
+         padding-top: 1rem;
+      }
       .padre{
          flex-direction: column;
          justify-content: center;
@@ -163,9 +167,7 @@
             height: 100%;
             text-align: center;
             margin-bottom: 1rem;
-            img{
-               width: 70%;
-            }
+            
          }
       }
    }
@@ -179,6 +181,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         margin-left: -2%;
          .reunion-de-padres{
             width: 90%;
             height: 100%;
@@ -189,7 +192,7 @@
             height: 100%;
             text-align: center;
             p{
-               font-size: 0.7rem;
+               font-size: 0.8rem;
             }
          }
          .viaje{
@@ -203,11 +206,9 @@
             text-align: center;
             margin-bottom: 1rem;
             p{
-               font-size: 0.8rem;
+               font-size: 0.9rem;
             }
-            img{
-               width: 70%;
-            }
+            
          }
       }
    }

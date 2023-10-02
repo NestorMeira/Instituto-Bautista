@@ -35,7 +35,7 @@ const Novesades = () => {
         <a href="assets/nota_padres_Capiovi.pdf">Nota de padres</a><br/>
         </div>
         <div className='libro'>
-        <img src='/assets/libroingles.png' alt='imagen'/>
+        <img src='/assets/libroingles.jpg' alt='imagen'/>
         <h3>Libros Ingles 2023</h3>
         <p><strong>1º grado:</strong> Storyline Starter A (Se comienza a usar el 1 de marzo)</p>
         <p><strong>2º grado:</strong> Storyline Starter B (Se comienza a usar a partir de 3/4. Durante el mes de marzo se termina de usar el del año anterior)</p>

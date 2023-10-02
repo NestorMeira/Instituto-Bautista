@@ -10,35 +10,35 @@ const Niveles = () => {
      <h3>
       <strong>Perfil del alumno</strong>
      </h3>
-        <div>Es protagonista del proceso de enseñanza - aprendizaje</div>
+        <h6>Es protagonista del proceso de enseñanza - aprendizaje</h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Es un ser sociable, independiente, participativo, solidario, crítico, observador, respetuoso y creativo
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Es respetuoso de las diferencias, con capacidad creciente para aceptar lo diverso, desarrollando actitudes de tolerancia 
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Se reconoce y respeta como persona
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Manifiesta sentimientos de pertenencia, seguridad y confianza en sí mismo, para resolver situaciones problemáticas
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Tiene control de su cuerpo y seguridad en sus desplazamientos  
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Conoce y relaciona hechos, fenómenos y situaciones del ambiente natural y social y los explica
-        </div>
+        </h6>
         <div className='punto'>●</div>
-        <div>
+        <h6>
         Valora la importancia del medio natural y de la calidad de la vida humana
-        </div>
+        </h6>
      </h4>
     <div className='imgNiveles'>
   <div className='img'>
@@ -59,7 +59,7 @@ const Niveles = () => {
   <img src='/assets/secundario.jpg' alt='imagen'/>
   <div className='divItem'>
   <strong>1er Año Secundaria</strong>
-  <h6>Orientación Educacion Física </h6>
+  <h6>Orientación Educación Física </h6>
  <p>Turno Mañana</p>
 </div>
 </div>

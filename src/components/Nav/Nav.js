@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
                   {pages.niveles}
                 </Button>
                 </Link>
-                <Link className='linea' to='/contacto'>
+                <Link className='linea' to='/'>
                 <Button className='boton'
                   key={pages}
                   onClick={handleCloseNavMenu}
@@ -133,13 +133,13 @@ function ResponsiveAppBar() {
           
             
                
-              <Box sx={{color:'black', flexGrow: 2,paddingLeft:'26%',display: { xs: 'none', md: 'flex' }}}> 
+              <Box sx={{color:'black' ,flexGrow: 2,paddingLeft:'17%',display: { xs: 'none', md: 'flex' }}}> 
                 <>
                 <Link className='linea' to='/nosotros'>
                 <Button
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'black',fontWeight:'bold',display: 'block' }}
+                  sx={{ my: 2,height:'50%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)',fontWeight:'bold',display: 'block' }}
                 >nosotros
                   {pages.nosotros}
                 </Button>
@@ -148,7 +148,7 @@ function ResponsiveAppBar() {
                        <Button 
                          key={pages}
                          onClick={handleCloseNavMenu}
-                         sx={{ my: 2, color: 'black', display: 'block' ,fontWeight:'bold'}}
+                         sx={{ my: 2,height:'50%',marginLeft:'10%', backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block' ,fontWeight:'bold'}}
                        >niveles
                          {pages.niveles}
                        </Button>
@@ -157,7 +157,7 @@ function ResponsiveAppBar() {
                               <Button 
                                 key={pages}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'black', display: 'block',fontWeight:'bold'}}
+                                sx={{ my: 2,height:'50%',marginLeft:'15%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block',fontWeight:'bold'}}
                               >contacto
                                 {pages.contcto}
                               </Button>

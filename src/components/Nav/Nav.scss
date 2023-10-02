@@ -38,7 +38,7 @@
     display: flex;
     flex-flow: row wrap;
     position: fixed;
-    margin-left:81%;
+    margin-left:80%;
 a{
     padding-right: 1rem;
 .face{
@@ -50,10 +50,9 @@ a{
 }
 }
 .redes2{
-  
-    a{
-        
-        padding: 0.6rem;
+    margin-left: -12%;
+    a{   
+        padding: 0.6em 1rem;
         .face{
             font-size: 1.9rem;
             color: rgb(0, 149, 255);
