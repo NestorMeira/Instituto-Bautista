@@ -55,6 +55,7 @@ height: 500px;
                 color: aliceblue;
                 font-weight: 500;
                 text-shadow: 2px 2px 5px rgba(63, 63, 63, 0.465);
+                line-height: normal;
             }
             .icono1{
                 font-size: 7rem;
@@ -62,20 +63,26 @@ height: 500px;
                 background-size: cover; /* Ajusta el tamaño de la imagen */
                 box-shadow: 2px 2px 5px rgba(63, 63, 63, 0.465);
                 border-radius: 10px;
-         
             }
             .icono2{
                 font-size: 7rem;
                 color: hsl(50, 100%, 50%);
                 box-shadow: 2px 2px 5px rgba(63, 63, 63, 0.465);
-                border-radius: 10px;
-                
+                border-radius: 10px; 
             }
             .icono3{
                 font-size: 7rem;
                 color: hsl(50, 100%, 50%);
                 box-shadow: 2px 2px 5px rgba(63, 63, 63, 0.247);
                 border-radius: 10px;
+            }
+            .icono4{
+                font-size: 7rem;
+                color: hsl(50, 100%, 50%);
+                box-shadow: 2px 2px 5px rgba(63, 63, 63, 0.247);
+                border-radius: 10px;
+                margin-bottom: -3%;
+                
                 
             }
         }
@@ -88,7 +95,7 @@ height: 500px;
     h3{
         font-size: 2.5rem;
         line-height: 1.1;
-        margin: 10% 40% -50px auto;
+        margin: 10% 43% -50px auto;
         position: relative;
         text-shadow: 2px 2px 5px rgba(94, 93, 93, 0.402);
         
@@ -164,9 +171,58 @@ height: 500px;
         }
 
     }
+    
+    @media (max-width: 959px){
+        .section2{
+            width:auto ;
+            h3{
+             font-size: 2rem;
+             margin: 390px 40% -60px auto;
+             position: relative;
+            }
+            .padre3{
+             width: 100%;
+             .tel-email{
+                padding: 0.1rem;
+                width: 40%;
+                margin-right: 20px;
+                .tel{
+                 h6{
+                      font-size: 1.6rem;
+                      line-height: 1.5;
+                      text-align: center;
+                 }
+                 p{
+                     font-size: 1.3rem; 
+                  }
+                }
+                .email{
+                 h6{
+                      font-size: 1.4rem;
+                      line-height: 1.4;
+                      font-weight: bold;
+                      text-align: center;
+                 }
+                 p{
+                     font-size: 1.2rem;
+                     padding: 1rem;
+                    
+                  }
+             }
+            }
+             }
+             .mapa{
+                 height: 370px;
+                 width:310px;
+             
+             }
+         }
+     
+    }
 
     @media (min-width: 932px){
         .section2{
+            width:auto ;
             background-repeat:repeat ;
         }
     }
@@ -213,6 +269,9 @@ height: 500px;
                 .icono3{
                     font-size: 6rem;
                     
+                }
+                .icono4{
+                    font-size: 6rem;
                 }
             }
         }
@@ -306,9 +365,11 @@ height: 500px;
                     }
                     .icono3{
                         font-size: 5rem;
-                
-                        
                     }
+                    .icono4{
+                        font-size: 5rem;
+                    }
+    
                 }
             }
             }
@@ -420,9 +481,11 @@ height: 500px;
                     }
                     .icono3{
                         font-size: 4rem;
-                        
-                        
                     }
+                    .icono4{
+                        font-size: 4.3rem;
+                    }
+    
                 }
             }
             }

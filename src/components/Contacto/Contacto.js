@@ -1,5 +1,5 @@
 import'./Contacto.scss';
-// import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import BackpackOutlinedIcon from '@mui/icons-material/BackpackOutlined';
 import LibraryAddCheckOutlinedIcon from '@mui/icons-material/LibraryAddCheckOutlined';
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import { Link } from 'react-router-dom';
@@ -30,12 +30,6 @@ const Contacto = () => {
                 <p>ELDORADO - MISIONES</p>
                 <div className='padre2'>
                   
-{/* <Link className='linea' to='/encuesta'>
-                <div className='hijo'>
-                    <PersonOutlineOutlinedIcon className='icono1'/>
-                    <span>Encuesta 2024</span>
-                </div>
-                </Link> */}
                 
                 <Link className='linea' to='/novedades'>
                 <div className='hijo'>            
@@ -49,6 +43,13 @@ const Contacto = () => {
                     <span>Formularios</span>                 
                 </div>
                 </Link>
+                <Link className='linea' to='/materiales'>
+                <div className='hijo'>            
+                    <BackpackOutlinedIcon className='icono4'/>
+                    <span>Lista de materiales<br/>2024</span>                 
+                </div>
+                </Link>
+                
                 </div>
             </div>
         </section>

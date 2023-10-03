@@ -60,7 +60,7 @@ const Niveles = () => {
   <div className='divItem'>
   <strong>1er Año Secundaria</strong>
   <h6>Orientación Educación Física </h6>
- <p>Turno Mañana</p>
+ <p>Turno Tarde</p>
 </div>
 </div>
     </div>

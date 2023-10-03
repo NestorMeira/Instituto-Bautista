@@ -6,8 +6,8 @@ import Formularios from './components/Formularios/Formularios';
 import Niveles from './components/Niveles/Niveles';
 import Nosotros from './components/Nosotros/Nosotros';
 import Novesades from './components/Novesades/Novesades';
-import Form from './components/Meil/Meil';
 import Footer from './components/Footer/Footer';
+import Materiales from './components/Materiales/Materiales';
 
 function App() {
 
@@ -16,11 +16,12 @@ function App() {
     <ResponsiveAppBar/>
     <Routes>
       <Route path='/' element= {<Contacto/>}/>
-      <Route path='/encuesta' element= {<Form/>}/>
       <Route path='/nosotros' element= {<Nosotros/>}/>
       <Route path='/novedades' element= {<Novesades/>}/>
       <Route path='/formularios' element= { <Formularios/>}/>
       <Route path='/niveles' element= {<Niveles/>}/>
+      <Route path='/materiales' element= {<Materiales/>}/>
+      
     </Routes>
     <Footer/>
   </BrowserRouter>
