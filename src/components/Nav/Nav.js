@@ -61,8 +61,11 @@ function ResponsiveAppBar() {
       <AppBar  position="static" style={useStyles.customAppBar}>
         <Container className='cotenedor' maxWidth="xl">
           <Toolbar disableGutters>
+            <Link className='linea' to='/contacto'>
           <img className='logo' src='/assets/logo.png' alt='imagen'/>
+          </Link>
           <h4>IBC ELDORADO</h4>
+          
             <Box className='menu' sx={{ flexGrow: 1, marginLeft:'16%',display: { xs: 'flex', md: 'none' } }}>
               <IconButton 
                 size="large"
@@ -99,8 +102,8 @@ function ResponsiveAppBar() {
                     <Button className='boton'
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
-                >nosotros
+                  sx={{ my: 2, color: 'white', display: 'block', textAlign:'center', width:'84%' }}
+                > nosotros
                   {pages.nosotros}
                 </Button>
                 </Link>
@@ -108,17 +111,17 @@ function ResponsiveAppBar() {
                 <Button className='boton' 
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
+                  sx={{ my: 2, color: 'white', display: 'block', textAlign:'center', width:'80%' }}
                 >niveles
                   {pages.niveles}
                 </Button>
                 </Link>
-                <Link className='linea' to='/'>
+                <Link className='linea' to='/contacto'>
                 <Button className='boton'
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
-                >contacto
+                  sx={{ my: 2, color: 'white', display: 'block', textAlign:'center', width:'80%' }}
+                >inicio
                   {pages.contacto}
                 </Button>
                 </Link>
@@ -139,7 +142,7 @@ function ResponsiveAppBar() {
                 <Button
                   key={pages}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2,height:'50%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)',fontWeight:'bold',display: 'block' }}
+                  sx={{ my: 2,height:'50%',width:'96px',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)',fontWeight:'bold',display: 'block' }}
                 >nosotros
                   {pages.nosotros}
                 </Button>
@@ -148,17 +151,17 @@ function ResponsiveAppBar() {
                        <Button 
                          key={pages}
                          onClick={handleCloseNavMenu}
-                         sx={{ my: 2,height:'50%',marginLeft:'10%', backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block' ,fontWeight:'bold'}}
+                         sx={{ my: 2,height:'50%',width:'95px',marginLeft:'10%', backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block' ,fontWeight:'bold'}}
                        >niveles
                          {pages.niveles}
                        </Button>
                        </Link>
-                              <Link className='linea' to='/'>
+                              <Link className='linea' to='/contacto'>
                               <Button 
                                 key={pages}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2,height:'50%',marginLeft:'15%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block',fontWeight:'bold'}}
-                              >contacto
+                                sx={{ my: 2,height:'50%',width:'95px',marginLeft:'15%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block',fontWeight:'bold'}}
+                              >inicio
                                 {pages.contcto}
                               </Button>
                               </Link>

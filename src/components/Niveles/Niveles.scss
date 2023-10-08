@@ -3,25 +3,26 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-image: url('../../../public/assets/background1.jpg');
-    background-position:center;
-    background-repeat:space;
     margin-top: 12%;
-    text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.368);
+    text-shadow: 2px 2px 5px rgba(165, 164, 164, 0.508);
        h4{
         width: 100%; 
     font-size: 1.3rem;
     line-height: 1.5;
     text-align: center;
     padding: 0.5rem 0rem;
+    margin-bottom: 20px;
     
-       
-     h6{
+     p{
             font-size: 1.3rem;
+            font-weight: 500;
+            padding: 0 1rem;
 
         }
         
-        h3{   padding: 30px 10px;
+        h3{  
+        margin: 4%;
+         padding: 30px 10px;
 
        strong{
         font-family: 'Jost', sans-serif;
@@ -90,7 +91,7 @@
       
                 ul{
                     padding-left: 2rem;
-                    padding-right: 0.8rem;
+                    padding-right: 1.4rem;
                     font-size: 1.4rem;
                     font-family: 'Jost', sans-serif;
                     li{
@@ -124,7 +125,7 @@
         h4{
             font-size: 1rem;
             font-weight: 200;
-            h6{
+            p{
             font-size: 1.3rem;
 
             }
@@ -151,14 +152,18 @@
 
     @media (max-width:700px){
         .Niveles{
+            margin-top: 15%;
         h4{
             font-size: 1rem;
             font-weight: 200;
-          h6{
-            font-size: 1.3rem;
+          p{
+            font-size: 1.1rem;
+            
             
           }
             h3{
+                margin-top: 7%;
+                padding: 0 0.1rem;
                 strong{
                     font-size: 2rem;
                 }

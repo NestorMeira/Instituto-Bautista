@@ -10,35 +10,35 @@ const Niveles = () => {
      <h3>
       <strong>Perfil del alumno</strong>
      </h3>
-        <h6>Es protagonista del proceso de enseñanza - aprendizaje</h6>
+        <p>Es protagonista del proceso de enseñanza - aprendizaje</p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Es un ser sociable, independiente, participativo, solidario, crítico, observador, respetuoso y creativo
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Es respetuoso de las diferencias, con capacidad creciente para aceptar lo diverso, desarrollando actitudes de tolerancia 
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Se reconoce y respeta como persona
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Manifiesta sentimientos de pertenencia, seguridad y confianza en sí mismo, para resolver situaciones problemáticas
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Tiene control de su cuerpo y seguridad en sus desplazamientos  
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Conoce y relaciona hechos, fenómenos y situaciones del ambiente natural y social y los explica
-        </h6>
+        </p>
         <div className='punto'>●</div>
-        <h6>
+        <p>
         Valora la importancia del medio natural y de la calidad de la vida humana
-        </h6>
+        </p>
      </h4>
     <div className='imgNiveles'>
   <div className='img'>

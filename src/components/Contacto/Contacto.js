@@ -3,25 +3,12 @@ import BackpackOutlinedIcon from '@mui/icons-material/BackpackOutlined';
 import LibraryAddCheckOutlinedIcon from '@mui/icons-material/LibraryAddCheckOutlined';
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import Spinner from '../Spinner/Spinner';
+
 
 const Contacto = () => {
 
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
-
 
   return (
-
-    <>{loading ? (
-      <Spinner/>
-    ): 
     <div className='contacto'>
      
         <section className='section1'>
@@ -75,13 +62,12 @@ const Contacto = () => {
         </div>
         </div>
         <div className='mapa'>
-        <iframe title="mapa"  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones'allowfullscreen></iframe>
+        <iframe title="mapa"  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones'  allowfullScreen ></iframe>
         </div>
             </div>
         </section>
     </div>
-    }
-    </>
+    
   )
 }
 
