@@ -70,7 +70,7 @@
              line-height: 1.5;
             }
         }
-        .objetivos{
+        .perfil{
             display: flex;
             flex-flow: column wrap;
             justify-content: center;
@@ -171,7 +171,7 @@
         }
         .imgNiveles{
             flex-flow: column wrap;
-            
+            margin-top: 60px;
         img{
             align-content: center;
             width:80%;
@@ -179,9 +179,10 @@
         .divItem{
         width: 80%;
         margin-left: 9.5%;
+
         }
         }
-        .objetivos{
+        .perfil{
             h3{
                font-size: 1.5rem;
             }

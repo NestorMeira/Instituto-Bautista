@@ -138,6 +138,15 @@ function ResponsiveAppBar() {
                
               <Box sx={{color:'black' ,flexGrow: 2,paddingLeft:'17%',display: { xs: 'none', md: 'flex' }}}> 
                 <>
+                <Link className='linea' to='/contacto'>
+                              <Button 
+                                key={pages}
+                                onClick={handleCloseNavMenu}
+                                sx={{ my: 2,height:'50%',width:'95px',marginLeft:'-10%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block',fontWeight:'bold'}}
+                              >inicio
+                                {pages.contcto}
+                              </Button>
+                              </Link>
                 <Link className='linea' to='/nosotros'>
                 <Button
                   key={pages}
@@ -156,15 +165,7 @@ function ResponsiveAppBar() {
                          {pages.niveles}
                        </Button>
                        </Link>
-                              <Link className='linea' to='/contacto'>
-                              <Button 
-                                key={pages}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2,height:'50%',width:'95px',marginLeft:'15%',backgroundColor:'#e0742ce9',color:'#fafafa',textShadow:'2px 2px 5px rgba(92, 91, 91, 0.465)',boxShadow:'2px 2px 5px rgba(63, 63, 63, 0.465)', display: 'block',fontWeight:'bold'}}
-                              >inicio
-                                {pages.contcto}
-                              </Button>
-                              </Link>
+                  
                               </>
             </Box>
             <div className='redes'>
