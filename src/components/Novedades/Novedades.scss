@@ -6,7 +6,7 @@
     margin-top: 12%;
     width: 100%;
   height: 100%;
-  background-color: rgba(234, 136, 15, 0.847);
+
   
 .uniformes{
    margin-top: 2%;
@@ -19,7 +19,53 @@
    justify-content:center;
    align-items: center;
    width: 70%;
+
+   .libros{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      border: 1px solid aliceblue;
+      width: 90%;
+      height: 250px;
+      margin-bottom: 70px;
+      box-shadow: 1px 2px 2px 3px rgba(3, 3, 3, 0.272);
+ .titulo-libro{
+   color: rgb(255, 255, 255);
+   animation: none;
+   box-shadow: none;
+   text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.837);
+   margin-top: -60px;
+   letter-spacing: 1.5px;
+   text-decoration: underline ;
+ }
+ 
+ .btn-libros{
+   display: flex;
+   flex-direction: row nowrap;
+   button{ 
+      letter-spacing: 0.5px;
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      padding: 0 1rem;
+      height: 70px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      margin: 0 40px;
+      box-shadow: 1px 2px 2px 2px rgba(3, 3, 3, 0.272);
+      text-shadow: 2px 2px 3px rgb(3, 3, 3);
+      transition: transform 0.4s ease; 
+      &:hover{
+          transform: scale(1.1);        
+
+      }
+      
+   }
+ }
+   }
    h1{
+      letter-spacing: 1.5px;
       color: rgb(247, 248, 249);
       margin: 10% 0;
       padding: 2rem 1rem;
@@ -43,7 +89,7 @@
       align-items: center;
       color: rgb(247, 248, 249);
       text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.429);
-      margin-bottom: 9%;
+      margin-bottom: 15%;
       gap:20px;
     a{
       padding: 0 1.5rem;
@@ -51,6 +97,7 @@
        font-size: 1.5rem;
        font-weight: bold;
        list-style-type: none; 
+       letter-spacing: 0.5px;
        text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.897);
        transition: transform 0.4s ease; 
        &:hover{
@@ -61,20 +108,24 @@
     }
 
    }
-   .img-inscripcion{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 1%;
-      box-shadow: 1px 2px 2px 5px rgba(0, 0, 0, 0.157);
-      img{
-         width: 100%;
-         height:450px;
-         border: 8px solid aliceblue;
-      }
-   }
- 
+  
 }
+
+.img-inscripcion{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1%;
+   box-shadow: 1px 2px 2px 5px rgba(0, 0, 0, 0.157);
+   img{
+      width: 90%;
+      height:450px;
+      border: 8px solid aliceblue;
+      margin-top: 10px;
+   }
+}
+
     .padre{
         display: flex;
         flex-direction: column;
@@ -124,12 +175,35 @@
             color: rgba(247, 248, 249, 0.907);
         }
         }
-     
-
      }
-    
-    
-        }
+
+ }
+
+ .libros-aula{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 15%;
+   img{
+      width: 60%;
+      height: 100%;
+      padding: 1rem 0;
+   }
+  }
+.libros-ingles{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 15%;
+   img{
+      width: 60%;
+      height: 100%;
+      padding: 1rem 0;
+   }
+  
+}
 
 @media (max-width:769px){
    .novedades{
@@ -158,9 +232,34 @@
 }
     
 @media (max-width:600px){
+   .libros-aula{
+      margin-top: 20%;
+      img{
+         width: 100%;
+      }
+   }
+   .libros-ingles{
+      margin-top: 20%;
+      img{
+         width: 100%;
+      } 
+   }
    .novedades{
       height: 100%;
-    
+    .uniformes{
+     
+      .btn-uniformes{
+         margin-bottom: 20%;
+      }
+      .libros{
+     margin-bottom: 120px;
+         .btn-libros{
+            button{
+            margin:0 20px;
+         }
+         }
+      }
+    }
       .padre{
          flex-direction: column;
          justify-content: center;
@@ -189,30 +288,49 @@
 @media (max-width:500px){
    .novedades{
       height: 100%;
-      margin-top: 17%;
+      margin-top: 20%;
+
+
+      .img-inscripcion{
+         width: 100%;
+     
+         img{
+          width: 100%;
+            border: none;
+      }
+   }
       .uniformes{
          h1{
             margin: 17% 0;
             padding: 2rem 2rem;
          }
-         .img-inscripcion{
-            margin-top: 3%;
-            width: 100%;
-            height: 400px;
-            img{
-            border: none;
-         }
+       
          }
          .btn-uniformes{
             flex-direction: column;
             margin-bottom: 15%;
-            margin-top: -20px;
+            
             a{
                padding: 1rem 0;
             }
          }
+
+         .libros{
+            width: 95%;
+            .titulo-libro{
+               margin-top: -30px;
+               font-size: 1.7rem;
+              }
+            .btn-libros{
+           margin-top: -30px;
+               button{
+               margin:0 10px;
+            }
+            }
+         }
+
       }
-    
+
       .padre{
          flex-direction: column;
          justify-content: center;
@@ -242,6 +360,26 @@
          }
         
       }
-   }
+  
    
+}
+@media (max-width:390px){
+   .novedades{
+   .uniformes{
+   .libros{
+      width: 95%;
+      .titulo-libro{
+         margin-top: -30px;
+         font-size: 1.7rem;
+        }
+      .btn-libros{
+     
+         button{
+         margin:0 10px;
+         font-size: 0.9rem;
+      }
+      }
+   }
+}
+}
 }

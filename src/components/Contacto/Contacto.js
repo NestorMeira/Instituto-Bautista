@@ -62,7 +62,7 @@ const Contacto = () => {
         </div>
         </div>
         <div className='mapa'>
-        <iframe title="mapa"  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones'  allowfullScreen ></iframe>
+        <iframe title="mapa"  src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&q=Calle La Rioja 1402, eldorado, misiones' allowFullScreen ></iframe>
         </div>
             </div>
         </section>

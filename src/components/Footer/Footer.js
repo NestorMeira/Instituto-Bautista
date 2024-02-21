@@ -8,17 +8,17 @@ function Footer() {
         <img src="assets/logo.png" alt="Logo"  />
         <span className="logo-text">INSTITUTO BAUTISTA DEL CENTRO</span>
       </div>
-      {/* <div className="creator">
+      <div className="creator">
         Creado por{' '}
         <a
-          href="enlace_a_tu_portfolio"
+          href="https://nestormeira.github.io/porfolio/"
           className="portfolio-link"
           target="_blank"
           rel="noopener noreferrer"
         >
             Nestor Meira
         </a>
-      </div> */}
+      </div>
     </footer>
   );
 }

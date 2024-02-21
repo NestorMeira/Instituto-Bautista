@@ -8,6 +8,8 @@ import Novedades from './components/Novedades/Novedades';
 import Footer from './components/Footer/Footer';
 import Materiales from './components/Materiales/Materiales';
 import Inicio from './inicio';
+import LibrosAula from './components/Novedades/LibrosAula';
+import LibrosIngles from './components/Novedades/LibrosIngles';
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
       <Route path='/formularios' element= { <Formularios/>}/>
       <Route path='/niveles' element= {<Niveles/>}/>
       <Route path='/materiales' element= {<Materiales/>}/>
+      <Route path='/librosaula' element= {<LibrosAula/>}/>
+      <Route path='/librosingles' element= {<LibrosIngles/>}/>
       </Routes>
       <Footer/>
     </Router>
