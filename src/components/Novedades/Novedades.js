@@ -7,6 +7,7 @@ const Novedades = () => {
     <div className='novedades'>
       <div className='img-inscripcion'>
       <img src="/assets/secundario2.jpg" alt="imagen" />
+      <img src="/assets/vuelta4.jpg" alt="imagen" />
       <img src="/assets/vuelta3.jpg" alt="imagen" />
       <img src="/assets/vuelta2.jpg" alt="imagen" />
       <img src="/assets/vuelta1.jpg" alt="imagen" />

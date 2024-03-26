@@ -11,7 +11,7 @@ function Footer() {
       <div className="creator">
         Creado por{' '}
         <a
-          href="https://nestormeira.github.io/porfolio/"
+          href="https://xn--diseosaman-w9a.online/"
           className="portfolio-link"
           target="_blank"
           rel="noopener noreferrer"
