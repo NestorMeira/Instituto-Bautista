@@ -58,8 +58,8 @@ function ResponsiveAppBar() {
   return (
 
 
-      <AppBar  position="static" style={useStyles.customAppBar}>
-        <Container className='cotenedor' maxWidth="xl">
+      <AppBar  position="static" style={useStyles.customAppBar} >
+        <Container className='cotenedor' maxWidth="x2">
           <Toolbar disableGutters>
             <Link className='linea' to='/contacto'>
           <img className='logo' src='/assets/logo.png' alt='imagen'/>

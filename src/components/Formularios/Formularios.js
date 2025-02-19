@@ -1,8 +1,7 @@
-import'./Formularios.scss'
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
-
+import'./Formularios.scss'
 const Formularios = () => {
   return (
     <div className='formularios'>
@@ -13,14 +12,11 @@ const Formularios = () => {
         </h3>
         </div>
         </section>
-        <section className='sction1'>
-            <h3>
-            <strong>
-                Haga click en los iconos para descargar los formularios en formato PDF
-            </strong>
-            </h3>
-            <div className='padre'>
-                <div className='hijo'>
+        
+        <section className='formu'>
+         
+            <div className='p1'>
+                <div className='p2'>
                 <a href="assets/ficha_medica.pdf">
                 <InsertDriveFileOutlinedIcon className='iconos'/>
                     <h4>
@@ -28,7 +24,7 @@ const Formularios = () => {
                     </h4>
                     </a>
                 </div>
-                <div className='hijo'>
+                <div className='p2'>
              <a href='assets/AUTORIZACIN-SALIDAINDIVIDUAL.pdf'>
                    <PersonOutlineIcon className='iconos'/>
                        <h4>
@@ -36,7 +32,7 @@ const Formularios = () => {
                            </h4>
              </a>
                 </div>
-                <div className='hijo'>
+                <div className='p2'>
               <a href='assets/AUTORIZACIN-SALIDAACOMPAADA.pdf'>
                       
                   <PeopleAltOutlinedIcon className='iconos'/>

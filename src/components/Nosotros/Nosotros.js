@@ -1,11 +1,32 @@
 import Carrusel from '../Carrusel/Carrusel'
 import'./Nosotros.scss'
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
+import React, { useState, useEffect } from 'react';
+
 
 const Nosotros = () => {
 
+
+    const [loading, setLoading] = useState(true); 
+
+    useEffect(() => {
+      // Simular un retraso de 3 segundos antes de cambiar el estado de carga
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 3000);
+  
+      // Limpiar el temporizador en caso de que el componente se desmonte antes de que termine el retraso
+      return () => clearTimeout(timer);
+    }, []);
+  
+
   return (
     <div className='Nosotros'>
+{loading && ( // Mostrar el spinner mientras se carga el componente
+        <div className="spinner-overlay">
+          <div className="spinner"><img src="assets/logo.png" alt="logo" /></div>
+        </div>
+      )}
            <h1>IBC ELDORADO</h1>
         <Carrusel/>
         <div className='titulo-img'>

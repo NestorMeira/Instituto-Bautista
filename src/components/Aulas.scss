@@ -1,0 +1,353 @@
+.Sala4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    .spinner-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.941);
+        z-index: 7;
+        top: 0;
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .spinner{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 60px;
+          width: 90px;
+          height: 90px;
+          animation: spin 3.5s linear infinite; 
+          border: none;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 60px;
+      
+            border: none;
+          }
+        }
+      }
+     
+form{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+span{
+    font-size: 1.5rem;margin-bottom: 25px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    line-height: 1;
+}
+select{
+    width: 210px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    display: none;
+}
+input{
+    width: 200px;
+    height: 30px;
+ 
+    font-size: 1.1rem;
+    padding-left: 5px;
+    text-align: center;
+}
+textarea{
+    width: 200px;
+    padding-left: 4px;
+
+    font-size: 1rem;
+    height: 80px;
+}
+button{
+    width: 90px;
+    height: 35px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(13, 187, 36);
+    color: rgb(249, 249, 249);
+    text-shadow: 1px  1.5px 2px  rgb(2, 45, 22);
+    box-shadow: 1px 1.5px 2px 2.5px  rgba(84, 83, 83, 0.581);
+    margin-top: 20px;
+    &:active{
+        font-size: 1.1rem;
+        width: 89px;
+        height: 34px;
+    }
+}
+}
+
+.vista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 350px;
+    border:1px solid gray;
+    padding: 10px 10px;
+
+
+    .editar{
+        border: none;
+        box-shadow: none;
+        margin-top: -1px;
+      .edit-icon{
+        color: black;
+        font-size: 1.3rem;
+      }
+    }
+    h4{
+        margin-left: 140px;
+       margin-bottom: -27px;
+       z-index: 1;
+       border-radius: 30px;
+       background-color: rgb(255, 255, 255);
+       padding: 2px;
+    }
+    img{
+        width: 200px;
+        height:auto ;
+    }
+    h3{
+        margin: 8px 0;
+    }
+   p{
+        white-space: pre-wrap;
+   }
+    button{
+        margin-top: 10px;
+        margin-left: 250px;
+        font-size: 1rem;
+        border: 1px solid red;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        color: red;
+        padding: 4px;
+        box-shadow: 1px 1.5px 2px 2.5px  rgba(84, 83, 83, 0.33);
+        cursor: pointer;
+    }
+}
+}
+
+
+// VISTA 2 
+
+
+.sala4vista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-bottom: 320px;
+    align-items: center;
+    justify-content: center;
+    
+    .decorado{
+      width: 100%;
+      height: 60px;
+      background-image: url('../../public/assets/fondito.png');
+      background-repeat: no-repeat;
+      background-position:center;
+      margin-top: -10px;
+      
+    }
+    .spinner-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.941);
+        z-index: 7;
+        top: 0;
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .spinner{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 60px;
+          width: 90px;
+          height: 90px;
+          animation: spin 3.5s linear infinite; 
+          border: none;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 60px;
+      
+            border: none;
+          }
+        }
+      }
+     
+    h2{
+        font-size: 1.9rem;
+        text-decoration: underline;
+        margin:30px 0;
+    }
+.vista2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 600px;
+    padding: 10px 10px;
+    box-shadow: 1px 1.5px 2px 2.5px  rgba(84, 83, 83, 0.581);
+    img{
+        width: 300px;
+        height:auto ;
+    }
+    h3{
+     
+       margin: 20px 0;
+    }
+   p{
+    white-space: pre-wrap;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    letter-spacing: 0.6px;
+    text-shadow: 1px 1px 1px rgba(35, 34, 34, 0.03);
+    line-height: 1.3;
+    margin-bottom: 20px;
+
+ 
+   }
+  a{
+    margin: 20px 0;
+  }
+}
+
+//LOGIN
+
+.login{
+ 
+  top: 140px;
+  margin-left: 80%;
+  background-color: transparent;
+  border: none;
+  padding-left: 8px;
+  cursor: pointer;
+  .login-icon{
+      font-size: 2rem;
+      color: #000000b1;
+  }
+}
+.titulo{
+  padding-top: 50px;
+  margin-bottom: -180px;
+  text-align: center;
+  font-size: 1.6rem;
+}    
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  input{
+      width: 200px;
+      height: 30px;
+      margin-bottom: 25px;
+      padding-left: 3px;
+      font-size: 1rem;
+  }
+  button{
+      width: 90px;
+      height: 35px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 20px;
+      background-color: rgb(13, 187, 36);
+      color: rgb(240, 240, 240);
+      text-shadow: 1px  1.5px 2px  rgb(2, 45, 22);
+      box-shadow: 1px 1.5px 2px 2.5px  rgba(84, 83, 83, 0.581);
+      margin-top: 10px;
+      letter-spacing: 0.6px;
+      cursor: pointer;
+      &:active{
+          font-size: 1.1rem;
+          width: 89px;
+          height: 34px;
+      }
+  }
+}
+
+
+}
+@media (max-width:640px){
+    .sala4vista{
+
+      h2{
+        text-align: center;
+        width: 300px;
+        font-size: 1.7rem;
+     
+      }
+    .vista2{
+      width:340px;
+
+        }
+}
+}
+@media (max-width:420px){
+    .sala4vista{
+  .decorado{
+    
+    margin-top: -4 5px;
+  }
+      .login{
+        .login-icon{
+          font-size: 1.8rem;
+    
+      }
+      }
+    .vista2{
+  
+        padding: 0;
+    
+      
+    }
+}
+}
+@media (max-width:360px){
+  .sala4vista{
+
+  .vista2{
+    width: 320px;
+    
+  }
+}
+}
+

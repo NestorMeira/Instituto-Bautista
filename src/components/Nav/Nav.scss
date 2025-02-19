@@ -12,28 +12,35 @@
     width:100vw;
     height: 270px;
  
+   
     .boton{
         color: black;
     }
 }
 .cotenedor{
+ 
+    box-shadow: 1px 2px 2px 5px rgba(0, 0, 0, 0.157);
    color: black;
    background-color:rgb(255, 255, 255);
    position: fixed;
    margin-bottom: 10px;
+   z-index: 3;
+   
    &:hover{
    .logo{
-    width: 80px;
-    height: 74px;
-    padding: 1rem 2rem;
+    width: 74px;
+    height: 66px;
+    padding: 1rem 1.6rem;
    transition: all 0.45s ease;
-   transition-duration: 0.45s;
+   transition-duration: 0.5s;
    transition-timing-function: ease;
-   transition-delay: 0.2s;
+   transition-delay: 0.1s;
    transition-property: all;
+  
 }
 } 
 }
+
 .redes{
     display: flex;
     flex-flow: row wrap;

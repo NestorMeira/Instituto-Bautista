@@ -6,16 +6,76 @@
     margin-top: 12%;
     width: 100%;
   height: 100%;
+  background-position:center;
 
+  .grados{
+   display: flex;
+   margin: 45px 0;
+
+   select{
+      width: 140px;
+      height: 40px;
+      font-size: 1rem ;
+      margin: 0 8px;
+      
+      cursor: pointer;
+      box-shadow: 0.5px 1px 1.5px 2px rgba(21, 21, 21, 0.272);
+      border-radius: 6px;
+      border: 1px solid rgb(255, 128, 0);
+      background-color: rgb(255, 255, 255);
+      option{
+         text-align: center;
+      }
+
+   }
+   .linea{
+      margin-bottom: 15px;
+   }
+  }
   
+  .spinner-overlay{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   background-color: rgba(255, 255, 255, 0.941);
+   z-index: 7;
+   top: 0;
+   @keyframes spin {
+     0% {
+       transform: rotate(0deg);
+     }
+     100% {
+       transform: rotate(360deg);
+     }
+   }
+   .spinner{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 60px;
+     width: 90px;
+     height: 90px;
+     animation: spin 3.5s linear infinite; 
+     border: none;
+     img{
+       width: 100%;
+       height: 100%;
+       border-radius: 60px;
+ 
+       border: none;
+     }
+   }
+ }
+
 .uniformes{
    margin-top: 2%;
    display: flex;
    flex-direction: column;
-   
-   background-image: url('../../../public/assets/fondo-novedades3.jpg');
-   background-size: 100% 100%;
-   background-position:center;
    flex-wrap: wrap;
    justify-content:center;
    align-items: center;
@@ -27,83 +87,84 @@
       justify-content: center;
       align-items: center;
       flex-wrap: nowrap;
-      border: 1px solid aliceblue;
-      width: 90%;
+      margin-top: 30px;
+      width: 70%;
       height: 250px;
       margin-bottom: 70px;
-      box-shadow: 1px 2px 2px 3px rgba(3, 3, 3, 0.272);
+      box-shadow: 1px 2px 2px 3px rgba(76, 75, 75, 0.272);
+      background-image: url('../../../public/assets/librito.png');
+      background-repeat:no-repeat ;
+      background-size: 100% 100%;
  .titulo-libro{
-   color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    animation: none;
    box-shadow: none;
-   text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.837);
+   text-shadow: 2px 2px 5px rgba(71, 71, 71, 0.016);
    margin-top: -60px;
    letter-spacing: 1.5px;
-   text-decoration: underline ;
+
  }
  
  .btn-libros{
    display: flex;
    flex-direction: row nowrap;
+   margin-top: 20px;
    button{ 
-      letter-spacing: 0.5px;
-      background-color: transparent;
-      color: rgb(255, 255, 255);
+     letter-spacing: 0.5px;
+     background-color: rgb(255, 255, 255);
       padding: 0 1rem;
-      height: 70px;
+      height: 60px;
       font-size: 1.1rem;
-      border-radius: 5px;
-      margin: 0 40px;
+      border: 1px solid rgb(247, 126, 13);
+      border-radius: 8px;
+      margin: 20px 40px;
       box-shadow: 1px 2px 2px 2px rgba(3, 3, 3, 0.272);
-      text-shadow: 2px 2px 3px rgb(3, 3, 3);
       transition: transform 0.4s ease; 
       &:hover{
           transform: scale(1.1);        
-
+         text-decoration: underline;
       }
       
    }
  }
    }
-   h1{
+   p{
       letter-spacing: 1.5px;
-      color: rgb(247, 248, 249);
+      color: rgb(0, 0, 0);
       margin: 10% 0;
-      padding: 2rem 1rem;
-      text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.778);
-      box-shadow: 1px 2px 2px 5px rgba(3, 3, 3, 0.272);
-      border-radius: 6px;
-      @keyframes titileo {
-         0%, 100% {
-           opacity: 1;
-         }
-         50% {
-           opacity: 0.8;
-         }
-       }
-   
-       animation: titileo 3s infinite;
+      text-shadow: 2px 2px 5px rgba(71, 71, 71, 0.016);
+      font-weight: bold;
+      font-size: 1.5rem;
+ 
    }
    .btn-uniformes{
       display: flex;
       justify-content: center;
       align-items: center;
-      color: rgb(247, 248, 249);
-      text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.429);
       margin-bottom: 15%;
       gap:20px;
     a{
-      padding: 0 1.5rem;
-       color: rgb(247, 248, 249);
-       font-size: 1.5rem;
-       font-weight: bold;
+      text-align: center;
+      padding:0 0.2rem;
+      padding-top: 0.5rem;
+      color: rgb(0, 0, 0);
+       font-size: 1.1rem;
+  
        list-style-type: none; 
        letter-spacing: 0.5px;
-       text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.897);
        transition: transform 0.4s ease; 
+       text-decoration: none;
+       box-shadow: 1px 2px 2px 2px rgba(107, 107, 107, 0.478);
+       height: 30px;
+       width: 150px;
+       border-radius: 5px;
+       background-color: rgb(247, 248, 249);
+       text-shadow: 2px 2px 5px rgba(71, 71, 71, 0.016);
+       border: 1px solid rgb(242, 107, 17);
+  
        &:hover{
            transform: scale(1.1);        
-
+            text-decoration: underline;
        }
 
     }
@@ -112,71 +173,41 @@
   
 }
 
-.img-inscripcion{
+.descripcion{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-top: 1%;
+   border-radius: 5px;
    box-shadow: 1px 2px 2px 5px rgba(0, 0, 0, 0.157);
+   
+   width: 50%;
+   span{
+      display: none;
+   }
    img{
-      width: 90%;
-      height:450px;
-      border: 8px solid aliceblue;
+      width: 100%;
+      height:100%;
+   
       margin-top: 10px;
    }
+   h2{
+      margin: 10px 0;
+   }
+p{
+   white-space: pre-wrap;
+   font-size: 1rem;
+   color: rgb(0, 0, 0);
+   padding: 1rem;
+   letter-spacing: 0.6px;
+   text-shadow: 1px 1px 1px rgba(35, 34, 34, 0.03);
+   line-height: 1.3;
+   margin-bottom: 20px;
+}
 }
 
-    .padre{
-        display: flex;
-        flex-direction: column;
-        background-image: url('../../../public/assets/fondo-novedades.png');
-        background-size: 100% 100%;
-        background-position:center;
-        flex-wrap: wrap;
-        justify-content:center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        width: 70%;
-        height: 100%;
-        margin-bottom: 20px;
-       
-     
-     .calendario{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        border-radius: 7px;
-        width: 55%;
-        height: 95%;
-        margin-bottom: 15px;
-        margin-top: 6%;
-        margin-left: 5%;
-        text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.429);
-        h3{
-         
-           padding: 50px 50px;
-          color: rgba(247, 248, 249, 0.907);
-          font-size: 1.7rem;
-         margin-left:-12% ;
-          width: 100%;
-          text-align: center;
-          strong{
-            font-size: 2rem;
-          }
-        } 
-        p{          
-            text-align: left;
-            font-family: 'Jost', sans-serif;
-            font-size: 1.2rem;
-            line-height: 1.5;       
-            padding: 7px;
-            flex-wrap: wrap;
-            color: rgba(247, 248, 249, 0.907);
-        }
-        }
-     }
+
 
  }
 
@@ -206,12 +237,15 @@
   
 }
 
-@media (max-width:769px){
+@media (max-width:779px){
    .novedades{
       height: 100%;
       margin-top: 17%;
       .uniformes{
          width: 100%;
+         .libros{
+            width: 90%;
+         }
       }
       h2{
          padding-top: 1rem;
@@ -228,11 +262,14 @@
             text-align: center;
          }
       }
+      .descripcion{
+         width: 95%;
+      }
    }
    
 }
     
-@media (max-width:600px){
+@media (max-width:610px){
    .libros-aula{
       margin-top: 20%;
       img{
@@ -250,7 +287,8 @@
     .uniformes{
      
       .btn-uniformes{
-         margin-bottom: 20%;
+         font-size: 1.2rem;
+         flex-direction: column;
       }
       .libros{
      margin-bottom: 120px;
@@ -291,7 +329,14 @@
       height: 100%;
       margin-top: 20%;
 
-
+      .grados{
+         flex-direction: column;
+         select{
+            width: 175px;
+            font-size: 1.1rem;
+            margin: 5px 0;
+         }
+       }
       .img-inscripcion{
          width: 100%;
      
@@ -313,19 +358,23 @@
             
             a{
                padding: 1rem 0;
+
             }
          }
 
          .libros{
             width: 95%;
             .titulo-libro{
-               margin-top: -30px;
+           
+                margin-bottom: -10px;
                font-size: 1.7rem;
               }
+
             .btn-libros{
-           margin-top: -30px;
+        
                button{
                margin:0 10px;
+        
             }
             }
          }
@@ -336,7 +385,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         background-image: url('../../../public/assets/fondo-novedades2.jpg');
+
         
    
          .calendario{
@@ -366,6 +415,7 @@
 }
 @media (max-width:390px){
    .novedades{
+
    .uniformes{
    .libros{
       width: 95%;
@@ -377,7 +427,7 @@
      
          button{
          margin:0 10px;
-         font-size: 0.9rem;
+         font-size: 1rem;
       }
       }
    }

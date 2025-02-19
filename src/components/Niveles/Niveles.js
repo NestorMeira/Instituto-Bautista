@@ -1,11 +1,31 @@
 import'./Niveles.scss'
-import React from 'react'
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
+import React, { useState, useEffect } from 'react';
+
 
 const Niveles = () => {
+
+
+
+  const [loading, setLoading] = useState(true); 
+
+  useEffect(() => {
+    // Simular un retraso de 3 segundos antes de cambiar el estado de carga
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    // Limpiar el temporizador en caso de que el componente se desmonte antes de que termine el retraso
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className='Niveles'>
-   
+    {loading && ( // Mostrar el spinner mientras se carga el componente
+        <div className="spinner-overlay">
+          <div className="spinner"><img src="assets/logo.png" alt="logo" /></div>
+        </div>
+      )}
     <div className='imgNiveles'>
   <div className='img'>
   <img src='/assets/niveles-img1.jpg' alt='imagen'/>
